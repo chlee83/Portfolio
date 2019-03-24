@@ -1,0 +1,53 @@
+html, body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+img {
+    width: 100%;
+    padding: 12px;
+    opacity: 0.75;
+}
+
+img:hover {
+    opacity: 1;
+    cursor: crosshair;
+}
+
+.display-1, h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+
+.headerButton {
+    border: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.headerButton:hover {
+    border: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: rgb(7, 140, 192);
+    cursor: crosshair;
+}
+
+.headerButton:visited {
+    border: none;
+}
+
+
+.footer {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.bgTexture {
+    background-image: url("../images/gradient_squares.png");
+
+}
