@@ -7,11 +7,11 @@ html, body {
 img {
     width: 100%;
     padding: 12px;
-    opacity: 0.75;
+    opacity: 1;
 }
 
 img:hover {
-    opacity: 1;
+    opacity: 0.75;
     cursor: crosshair;
 }
 
@@ -19,6 +19,53 @@ img:hover {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+.logoOne {
+    -webkit-animation-name: logobg;
+    -webkit-animation-duration: 10s;
+    animation-name: logobg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.logoTwo {
+    -webkit-animation-name: logobg;
+    -webkit-animation-duration: 10s;
+    animation-name: logobg;
+    animation-duration: 10s;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+}
+.logoThree {
+    -webkit-animation-name: logobg;
+    -webkit-animation-duration: 10s;
+    animation-name: logobg;
+    animation-duration: 10s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+.logoFour {
+    -webkit-animation-name: logobg;
+    -webkit-animation-duration: 10s;
+    animation-name: logobg;
+    animation-duration: 10s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+.logoFive {
+    -webkit-animation-name: logobg;
+    -webkit-animation-duration: 10s;
+    animation-name: logobg;
+    animation-duration: 10s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+}
+.logoSix {
+    -webkit-animation-name: logobg;
+    -webkit-animation-duration: 10s;
+    animation-name: logobg;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
 
 
 .headerButton {
@@ -34,20 +81,33 @@ img:hover {
     margin-bottom: 20px;
     background-color: transparent;
     color: rgb(7, 140, 192);
-    cursor: crosshair;
-}
-
-.headerButton:visited {
-    border: none;
+    cursor: default;
 }
 
 
-.footer {
-    font-size: 16px;
-    color: #ddd;
+footer {
+    font-size: 26px;
+    color: #fff;
 }
 
 .bgTexture {
     background-image: url("../images/gradient_squares.png");
 
 }
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes logobg {
+    0% {color: #eee;}
+    10% {color: rgb(52,58,64);}
+    20% {color: #eee;}
+    100% {color: #eee;}
+  }
+  
+  /* Standard syntax */
+  @keyframes logobg {
+    0% {color: #eee;}
+    10% {color: rgb(52,58,64);}
+    20% {color: #eee;}
+    100% {color: #eee;}
+  }
