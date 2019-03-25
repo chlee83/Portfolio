@@ -1,7 +1,7 @@
 html, body {
     background-color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
-   
+   font-size: 20px;
 }
 
 img {
@@ -16,7 +16,9 @@ img:hover {
 }
 
 .display-1, h1 {
+    color: #fff;
     font-family: 'Alegreya Sans SC', sans-serif;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .logoOne {
@@ -80,10 +82,17 @@ img:hover {
     margin-top: 50px;
     margin-bottom: 20px;
     background-color: transparent;
-    color: rgb(7, 140, 192);
     cursor: default;
 }
 
+.name {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    height: 120px;
+    vertical-align: top;
+}
 
 footer {
     font-size: 26px;
@@ -91,8 +100,11 @@ footer {
 }
 
 .bgTexture {
-    background-image: url("../images/gradient_squares.png");
-
+    background-image: url("../images/philly3.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-color: #000;
 }
 
 
