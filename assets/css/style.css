@@ -21,6 +21,10 @@ img:hover {
     text-shadow: 2px 2px 2px #000000;
 }
 
+
+h1.indentB {
+    text-shadow: 0px 0px 0px #333333;
+}
 /*fading of top left name logo*/
 .logoOne {
     -webkit-animation-name: logobg;
@@ -101,9 +105,9 @@ footer {
 }
 
 .bgTexture {
-    background-image: url("../images/keyb3.jpeg");
+    background-image: url("../images/bg5.JPG");
     background-size: cover;
-    background-position-x: center;
+    background-position-x: right;
     background-position-y: top;
     background-color: #000;
 }
